@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+}
+body {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cxv-appbar {
+  background-color: white !important;
+  color: rgba(0, 0, 0, 0.733) !important;
+  text-align: center;
+  box-shadow: none !important;
+}
+.cxv-appar-branding {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(45deg, #eeee5a88, #eede008f);
+  background-repeat: no-repeat;
+  background-size: 65px 0.7em;
+  background-position: 50% 60%;
+  border-radius: 50%;
+}
+.cxv-menu-button {
+  position: absolute !important;
+  top: 15px;
+  left: 92%;
+  height: 50px;
+  width: 50px;
+  background-image: linear-gradient(204deg, #eeee5a, #ffee00);
+  background-repeat: no-repeat;
+  background-size: 26% 0.6em;
+  background-position: 56% 61%;
+  border-radius: 50%;
+  color: #000000a8 !important;
+}
+.cxv-dashboard-card {
+  max-width: 350px !important;
+}
+
+.cxv-assignment-card {
+  display: flex;
+}
+
+footer {
+  padding: 20px 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+footer span {
+  background-image: linear-gradient(45deg, #eeee5a88, #eede008f);
+  background-repeat: no-repeat;
+  background-size: 69% 1.4em;
+  background-position: 49% 70%;
+  padding: 20px;
+}
+
+.class-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.class-heading h6 {
+  text-align: center;
+  background-image: linear-gradient(45deg, #bcff0482, #87ca0b5e);
+  background-repeat: no-repeat;
+  background-size: 69% 0.7em;
+  background-position: 49% 70%;
+}
+
+.add-member-btn {
+  display: flex !important;
+  margin-left: auto !important;
+  padding: 10px !important;
+  margin-top: 40px !important;
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, #eeee5a88, #eede008f) !important;
+  color: black !important;
+}
+.MuiPaper-root {
+  /* background: #faffffe7 !important; */
+}
